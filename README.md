@@ -2,12 +2,12 @@
 
 ##### Below is a high level description of the `paymentGatewayMaintenance` API which enables online merchants to accept scheme points as a method of payment. 
 
-##### The online merchant needs to perform a `POST` and upon the receival of the the response redirect his web application to the `GatewayUrl`.
+##### The online merchant needs to perform a `POST` and upon the receival of the the response redirect his web application to the `GatewayUrl` (output).
 
 ##### Request Content Type: `application/json`
 
 # Sample request
-```json
+```javascript
 {
   "MerchantId": "{merchant id}", // provided by Up
   "Status":"ACTIVE",
@@ -25,7 +25,7 @@
 ```https://www.axiomwebservices.com/MeritEChannelsAccessAPI/api/gatewayPaymentMaintenance```
 
 # cURL Sample
-``` curl
+```bash
 curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' -d '{ \ 
    "MerchantId": "10", \ 
    "Status":"ACTIVE", \ 
