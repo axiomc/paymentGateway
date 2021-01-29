@@ -1,8 +1,10 @@
 # `paymentGatewayMaintenance`
 
-##### Below is a high level description of the `paymentGatewayMaintenance` API which enables online merchants to accept scheme points as a method of payment. 
+#### Below is a high level description of the `paymentGatewayMaintenance` API which enables online merchants to accept scheme points as a method of payment. 
 
-##### The online merchant needs to perform a `POST` and upon the receival of the the response redirect his web application to the `GatewayUrl` (output).
+![Payment gatewat](https://www.meritcrm.com//MeritWeb////CachedImages//_42ecd_3669b.png "Payment gateway")
+
+#### The online merchant needs to perform a `POST` and upon the receival of the the response redirect his web application to the `GatewayUrl` (output).
 
 ##### Request Content Type: `application/json`
 
@@ -65,5 +67,3 @@ curl -X POST --header 'Content-Type: application/json' --header 'Accept: applica
   }
 }
 ```
-
-
