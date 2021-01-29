@@ -15,7 +15,7 @@
   "Status":"ACTIVE",
   "Amount": {amount}, // the amount of the transaction
   "SuccessFallBackUrl": "{success_url}", // the url which the gateway will direct if the transaction is completed
-  "FailedFallBackUrl": "www.bing.com",  // the url which the gateway will direct if the transaction fails
+  "FailedFallBackUrl": "{fallback_url}",  // the url which the gateway will direct if the transaction fails
   "Runoption": "ADD",
   "institutionID": 6100,
   "institutionPassword": "6100UP",
