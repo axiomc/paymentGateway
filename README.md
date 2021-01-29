@@ -1,3 +1,4 @@
+
 # `paymentGatewayMaintenance`
 
 #### Below is a high level description of the `paymentGatewayMaintenance` API which enables online merchants to accept scheme points as a method of payment. 
@@ -67,3 +68,13 @@ curl -X POST --header 'Content-Type: application/json' --header 'Accept: applica
   }
 }
 ```
+
+# Appendix
+ 
+|Output| Description|Values|
+|--|--|--|
+|`responseCode` | Transaction response code |
+|`responseMessageType` | Transaction response message type. |“I”=Informational message, <br>“W”=Warning message, <br>“E”=Error message
+|`responseMessage` | Transaction response code | Transaction response message.  The message is returned in the response language, indicated by the responseLanguage input parameter.
+
+
